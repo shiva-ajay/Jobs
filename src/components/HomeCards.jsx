@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
 
-export const HomeCards = () => {
+const HomeCards = () => {
   return (
     <>
      {/* Developers and Employers */}
@@ -38,3 +38,5 @@ export const HomeCards = () => {
     </>
   )
 }
+
+export default HomeCards;

@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../assets/images/logo.png'
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <nav className="bg-indigo-700 border-b border-indigo-500">
   <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -43,3 +43,5 @@ export const Navbar = () => {
 
   )
 }
+
+export default Navbar;
