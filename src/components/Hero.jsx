@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <>
     {/* Hero */}
@@ -19,3 +19,5 @@ export const Hero = () => {
     </>
   )
 }
+
+export default Hero;
